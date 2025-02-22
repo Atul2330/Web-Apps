@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(100,500,100,10) !important;
+    color: rgb(66, 65, 65) !important;
+}
+#todo{
+    margin: 20px;
+    background-color: rgb(224, 238, 238);
+    /* height: 700px auto; */
+    /* width: ; */
+    border-radius: 10px;
+    text-align: left;
+    padding: 2px;
+}
+label{
+    margin: 2px;
+}
+button{
+    margin: 5px !important;
+}
