@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 >CV Generator</h1>
+    <br>
+    <div class="Input">
+        <b>Personal Details</b>
+        <br>
+        <label for="name">Name: </label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="linkedin">LinkedIn ID: </label>
+        <input type="text" id="linkedin">
+        <br>
+        <label for="num">Contact No: </label>
+        <input type="number" id="num" required>
+        <br>
+        <label for="address">Address: </label>
+        <input type="text" id="address">
+        <br>
+        <hr>
+        <b>Qualifications</b>
+        <br>
+        <label for="education">Qualifications</label>
+        <textarea id="education"></textarea>
+        <br>
+        <label for="exp">Experiences</label>
+        <textarea id="exp"></textarea>
+        <br>
+        <label for="skills">Skills</label>
+        <textarea id="skills"></textarea><br>
+        <button onclick="generateCV()">Generate CV</button>
+    </div>
+    <div class="display">
+        <h2>CV Preview</h2>
+        <div id="cv-name" class="section"></div>
+        <label for="cv-contact"><b>Contacts: </b></label>
+        <div id="cv-contact" class="section">
+            <div id="cv-email"></div>
+            <div id="cv-linkedin"></div>
+            <div id="cv-num"></div>
+            <div id="cv-address"></div>
+        </div>
+        <label for="cv-education"><b>Education: </b></label>
+        <div id="cv-education" class="section"></div>
+        <label for="cv-exp"><b>Experiences: </b></label>
+        <div id="cv-exp" class="section"></div>
+        <label for="cv-skills"><b>Skills: </b></label>
+        <div id="cv-skills" class="section"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

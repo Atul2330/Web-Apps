@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(17, 2, 2);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 4%;
+    padding: 20px;
+    background-color:teal;
+}
+input,textarea{
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(160, 157, 155);
+    box-sizing: border-box;
+}
+button{
+    padding: 10px 15px;
+    background-color: rgb(72, 93, 72);
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.display{
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid rgb(160, 157, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:rgb(247, 249, 247);
+    color:black;
+}
+h2{
+    margin-top: 0;
+}
+.section{
+    margin-bottom: 20px;
+}
+.section-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#cv-name{
+    text-align: center;
+}
